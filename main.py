@@ -17,7 +17,7 @@ def upload_files_to_gcs(bucket_name, source_folder):
         print(f"{filename} uploaded to blob as {destination_blob_name}.")
 
 
-bucket_name = "jsonfile_folder"
+bucket_name = "json_file_folder"
 source_folder = r"./json_data"
 upload_files_to_gcs(bucket_name, source_folder)
 
